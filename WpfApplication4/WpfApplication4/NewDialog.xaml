@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApplication4.NewDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="NewDialog" Height="92.523" Width="300">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Save changes?" VerticalAlignment="Top" Height="17" Width="272" Margin="10,0,0,0"/>
+        <Button x:Name="buttony" Content="Yes" HorizontalAlignment="Left" Margin="10,17,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="buttony_Click"/>
+        <Button x:Name="buttonn" Content="No" HorizontalAlignment="Left" Margin="107,17,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="buttonn_Click"/>
+        <Button x:Name="buttonc" Content="Cancel" HorizontalAlignment="Left" Margin="207,17,0,0" VerticalAlignment="Top" Width="75" Height="36" Click="buttonc_Click"/>
+
+    </Grid>
+</Window>
